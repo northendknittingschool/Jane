@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+        {{ $sass := resources.Get "style.scss" }}
+        {{ $options := (dict "outputStyle" "compressed") }}
+        {{ $style := $sass | resources.ToCSS $options }}
+        <link rel="stylesheet" type="text/css" href="{{ $style.Permalink }}">
+        <link href="https://fonts.googleapis.com/css?family=Catamaran|Teko:300" rel="stylesheet">
+        
+        <title>{{ .Title }}</title>
+        
+    </head>
+    <body>

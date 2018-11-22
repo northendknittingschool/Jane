@@ -1,0 +1,25 @@
+        <div id="menu">
+            <ul>
+                {{ $title := .Params.menuTitle }}
+                {{ range where (.Site.Pages.ByParam "menuOrder") ".Params.menuitem" true }}
+                <a href="{{ .Permalink }}">
+                    <li{{ if eq $title .Params.menutitle }} class="active"{{ end }}>{{ .Params.menuTitle }}</li>
+                </a>
+                {{ end }}
+            </ul>
+            <div class="mobile-menu-bar">
+                <a class="open-menu-link" href="#menu">
+                    <div class="open-menu">
+                        <div class="burger-line" id="burger-line-1"></div>
+                        <div class="burger-line" id="burger-line-2"></div>
+                        <div class="burger-line" id="burger-line-3"></div>
+                    </div>
+                </a>
+                <a class="close-menu-link" href="#">
+                    <div class="close-menu">
+                        <div class="close-line" id="close-line-1"></div>
+                        <div class="close-line" id="close-line-2"></div>
+                    </div>
+                </a>
+            </div>
+        </div>

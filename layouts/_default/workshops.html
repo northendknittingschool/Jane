@@ -1,0 +1,94 @@
+{{ partial "head.html" . }}
+{{ partial "menu.html" . }}
+        <div id="header-image">
+            <img src="/images/workshop.jpg">
+            <div id="logo"><h1>NORTH END<br>KNITTING<br>SCHOOL</h1></div>
+        </div>
+        <div class="workshop-intro">
+            <p>It’s an amazing feeling when you can say “I made that” — I want everyone who comes to one of my workshops to leave feeling that buzz.</p>
+            <p>All courses are held in my workshop in Wirksworth with pretty views out over the Derbyshire countryside — the perfect place to get creative!</p>
+        </div>
+        <div class="row">
+            <div class="col-33 icon-circle-col">
+                <div class="icon-circle">
+                    <img class="icon-image icon-image-1" src="/images/people-icon.png">
+                </div>
+                <h3>SMALL<br>GROUPS</h3>
+                <p>Maximum of three places on any workshop</p>
+            </div>
+            <div class="col-33 icon-circle-col">
+                <div class="icon-circle">
+                    <img class="icon-image icon-image-2" src="/images/materials-icon.png">
+                </div>
+                <h3>TAKE IT<br>HOME</h3>
+                 <p>Everything included</p>
+            </div>
+            <div class="col-33 icon-circle-col">
+                <div class="icon-circle">
+                    <img class="icon-image icon-image-3" src="/images/hand-icon.png">
+                </div>
+                <h3>HANDS-ON<br>SKILLS</h3>
+                <p>Understand the processes behind the machine</p>
+            </div>
+        </div>
+        <div class="workshop-intro">
+            <p>We’ll be using domestic machine knitting machines: mine are Knitmaster machines which work in the same way as Silver Reed machines, but I can also teach on Brother or Toyota machines if you’d like to bring your own.</p>
+            <p>If you can’t see the right course for you, just get in touch for a chat as courses can always be tailored to your needs.</p>
+        </div>
+
+        <div id="upcoming-workshops-div">
+            <div id="upcoming-workshops-text-div">
+                <h2>UPCOMING WORKSHOPS</h2>
+            </div>
+        </div>
+        {{ $.Scratch.Set "counter" 0 }}
+        {{ range where .Pages "Params.type" "workshop" }}
+        <div class="course-container">
+            {{ if ne ($.Scratch.Get "counter") 0 }}
+            <hr>
+            {{ end }}
+            <div class="row-flex course-row">
+                <div class="col-50-flex">
+                    {{ $resource := (.Site.GetPage "section" "uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" .Params.workshopImg) }}
+                    {{ $resource := $resource.Fill "400x400 Center" }} 
+                    <img class="clip-circle" src="{{ $resource.Permalink }}">
+                </div>
+                <div class="col-50-flex workshop-details">
+                    <h3>{{ .Params.workshopTitle }}</h3>
+                    <div class="course-detail">
+                        {{ partial "clock-icon.svg" . }}
+                        <p>{{ .Params.workshopTime }}</p>
+                    </div>
+                    <div class="course-detail">
+                        {{ partial "calendar-icon.svg" . }}
+                        <p>{{ .Params.workshopDate }}</p>
+                    </div>
+                    <div class="course-detail">
+                        {{ partial "price-icon.svg" . }}
+                        <p>{{ .Params.workshopCost }}</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="workshop-intro">
+                {{ .Content }}
+                <button>BOOK</button>
+            </div>
+            
+        </div>
+        {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
+        {{ end }}
+
+        <div class="footer-block">
+            <div class="row footer">
+                <div class="col-50">
+                    <h2>QUESTIONS?</h2>
+                    <p>Visit the Contact page to get in touch.</p>
+                </div>
+                <div class="col-50">
+                    <h2>READY TO BOOK?</h2>
+                    <p>See all available dates and reserve your place on the Bookings page.</p>
+                </div>
+            </div>
+        </div>
+{{ partial "footer.html" . }}

@@ -1,0 +1,49 @@
+{{ partial "head.html" . }}
+{{ partial "menu.html" . }}
+            
+        <div class="row-flex contact-header">
+            <div id="logo"><h1>NORTH END<br>KNITTING<br>SCHOOL</h1></div>
+            <div class="col-50-flex contact-img-col">
+                <img src="/images/contact-picture.jpg">
+            </div>
+            <div class="col-50-flex contact-text-col">
+<!--                <div>-->
+<!--                    <div id="logo-contact"><h1>NORTH END<br>KNITTING<br>SCHOOL</h1></div>-->
+                    <div class="get-in-touch-spacer"></div>
+                    <h2>GET IN TOUCH</h2>
+                    <p>If you have any questions about the courses, complete the contact form or email <a href="mailto:northendknittingschool@gmail.com">northendknittingschool@gmail.com</a> and I’ll be in touch for a chat.</p>
+                    <p>New workshops are always been posted. To keep up to date and receive special course discounts, register for the monthly North End Knitting School newsletter.</p>
+<!--                </div>-->
+            </div>
+        </div>
+        
+        <div class="contact-form-row">
+            <form action="https://formspree.io/lynch.cm@gmail.com" method="POST">
+                <div class="form-label">
+                    <label>NAME</label>
+                    <label>EMAIL</label>
+                    <label>MESSAGE</label>
+                </div>
+                <div class="form-input">
+                    <input type="text" name="name">
+                    <input type="email" name="email">
+                    <textarea rows="5" name="message"></textarea>
+                    <button type="sumbit">SEND</button>
+                    <input type="hidden" name="_next" value="https://timballpaintings.com/thankyou">
+                </div>
+            </form>
+        </div>
+
+        <div class="footer-block">
+            <div class="row footer">
+                <div class="col-50">
+                    <h2>QUESTIONS?</h2>
+                    <p>Visit the Contact page to get in touch.</p>
+                </div>
+                <div class="col-50">
+                    <h2>READY TO BOOK?</h2>
+                    <p>See all available dates and reserve your place on the Bookings page.</p>
+                </div>
+            </div>
+        </div>
+{{ partial "footer.html" . }}

@@ -1,0 +1,29 @@
+
+        <script>
+            $(function () {
+                $('#landing-quote').show();
+                var fadeCircles;
+                var fadeCirclesAlpha = 0;
+                $('#landing-quote').on('click touch', function() {
+                    $('#landing-quote').fadeOut('slow', function() {
+                        setTimeout(function() {
+                        fadeCircles = setInterval(fadeInMenuCircles, 50)
+                    }, 2000);
+                    });
+                    
+                });
+                
+                function fadeInMenuCircles() {
+                    fadeCirclesAlpha += 0.02;
+                    $('.menu-circle').css('backgroundColor', 'rgba(255,255,255,' + fadeCirclesAlpha + ')');
+                    $('.menu-circle-text').css('color', 'rgba(0,0,0,' + (2 * fadeCirclesAlpha) + ')');
+//                    alert('rgba(255,255,255,' + fadeCircles + ')');
+                    if (fadeCirclesAlpha > 0.5) {
+                        clearInterval(fadeCircles);
+                    }
+                }
+            });
+            
+        </script>
+    </body>
+</html>
