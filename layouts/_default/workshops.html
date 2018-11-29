@@ -61,7 +61,7 @@
                     </div>
                     <div class="course-detail">
                         {{ partial "calendar-icon.svg" . }}
-                        <p>{{ dateFormat .workshopDate.Format "Monday, Jan 2, 2006" }}</p>
+                        <p>{{ .Params.workshopDate }}</p>
                     </div>
                     <div class="course-detail">
                         {{ partial "price-icon.svg" . }}
