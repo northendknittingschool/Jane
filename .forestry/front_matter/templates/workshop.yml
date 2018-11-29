@@ -23,3 +23,5 @@ fields:
 - type: file
   name: workshopImg
   label: Workshop image
+pages:
+- content/workshops/test2.md
