@@ -15,8 +15,11 @@ sections:
 - type: directory
   path: content/gallery
   label: Gallery
-  create: all
+  create: documents
   match: "**/*"
+  exclude: _index.md
+  templates:
+  - gallery-item
 upload_dir: content/uploads
 public_path: "/uploads"
 front_matter_path: ''
