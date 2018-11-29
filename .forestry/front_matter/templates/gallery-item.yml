@@ -15,3 +15,5 @@ fields:
 - type: file
   name: galleryImg
   label: Gallery image
+pages:
+- content/gallery/test.md
