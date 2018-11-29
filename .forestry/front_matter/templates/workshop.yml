@@ -1,0 +1,25 @@
+---
+label: Workshop
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  hidden: true
+  default: workshop
+  label: Workshop
+  name: workshop
+- type: text
+  name: workshopTitle
+  label: Workshop title
+- type: text
+  name: workshopTime
+  label: Workshop time
+- type: text
+  name: workshopDate
+  label: Workshop date
+- type: text
+  name: workshopCost
+  label: Workshop cost
+- type: file
+  name: workshopImg
+  label: Workshop image
