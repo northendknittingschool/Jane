@@ -16,4 +16,5 @@ fields:
   name: galleryImg
   label: Gallery image
 pages:
+- content/gallery/gallery-1.md
 - content/gallery/test.md
