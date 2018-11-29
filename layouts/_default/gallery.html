@@ -1,0 +1,58 @@
+{{ partial "head.html" . }}
+{{ partial "menu.html" . }}
+
+        <div id="header-image">
+            <img src="/images/teaching.jpg">
+            <div id="logo"><h1>NORTH END KNITTING SCHOOL</h1></div>
+        </div>
+        <div class="gallery-container">
+            {{- $.Scratch.Set "counter" 0 -}}
+            {{ range .Pages }}
+            <div class="gallery-item">
+                <div class="gallery-item-click-target" id='{{ $.Scratch.Get "counter" }}' ></div>
+                {{- $resource := (.Site.GetPage "section" "uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" .Params.galleryImg) -}}
+                {{- $resource := $resource.Fill "400x400 Center" -}} 
+                <img class="clip-circle" src="{{ $resource.Permalink }}">
+            </div>
+            {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
+            {{ end }}
+
+            
+        </div>
+        
+        <div class="footer-block">
+            <div class="row footer">
+                <div class="col-50">
+                    <h2>QUESTIONS?</h2>
+                    <p>Visit the Contact page to get in touch.</p>
+                </div>
+                <div class="col-50">
+                    <h2>READY TO BOOK?</h2>
+                    <p>See all available dates and reserve your place on the Bookings page.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div id="swipe-photo-gallery-container">
+            <div class="swipe-photo-gallery" id="swipe-photo-gallery-id">
+                {{ range .Pages }}
+                {{- $resource := (.Site.GetPage "section" "uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" .Params.galleryImg) -}}
+                <img src="{{ $resource.Permalink }}">
+                {{ end }}
+            </div>
+            <div class="swipe-gallery-controls">
+                <div class="close-gallery">
+                    <div class="close-gallery-cross cross-1"></div>
+                    <div class="close-gallery-cross cross-2"></div>
+                </div>
+                <div class="slide-scroll-controls">
+                    <div class="scroll-arrow" id="scroll-left">
+                        {{ partial "scroll.svg" }}
+                    </div>
+                    <div class="scroll-arrow" id="scroll-right">
+                        {{ partial "scroll.svg" }}
+                    </div>
+                </div>
+            </div>
+        </div>
+{{ partial "footer.html" . }}

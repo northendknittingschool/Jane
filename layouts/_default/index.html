@@ -1,23 +1,56 @@
 {{ partial "head.html" . }}
         <div id="homepage-background">
-            <div id="landing-quote">
+            <div class="landing-quote" id="landing-quote-desktop">
                 {{ partial "quote.svg" . }}            
             </div>
-            <div id="logo"><h1>NORTH END<br>KNITTING<br>SCHOOL</h1></div>
-            <div id="intro"><p>Learn how to machine knit at Wirksworth's North End Knitting School</p></div>
+            <div class="landing-quote" id="landing-quote-mobile">
+                {{ partial "quote-mobile.svg" . }}            
+            </div>
+            <div id="logo-homepage"><h1>NORTH END<br>KNITTING<br>SCHOOL</h1></div>
+            <div id="intro"><p>Learn how to machine knit at Wirksworth's North&nbsp;End Knitting&nbsp;School</p></div>
 
 
             <div id="size-limit">
+<!--
                 <div id="click-to-explore">
                     <p>click to explore<br>the site</p>
                     <img src="/images/arrow.png">
                 </div>
+-->
                 <div id="spools-div">
                     <img src="/images/spools.png">
                     <div id="menu-overlay-box">
-                        <div id="menu-1" class="menu-circle"><h2 class="menu-circle-text">GALLERY</h2></div>
-                        <div id="menu-2" class="menu-circle"><h2 class="menu-circle-text">ABOUT</h2></div>
-                        <div id="menu-3" class="menu-circle"><h2 class="menu-circle-text">WORKSHOPS</h2></div>
+                        <a href="/gallery">
+                            <div id="menu-1" class="menu-circle"><h2 class="menu-circle-text">GALLERY</h2></div>
+                        </a>
+                        <a href="/about">
+                          <div id="menu-2" class="menu-circle"><h2 class="menu-circle-text">ABOUT</h2></div>
+                        </a>
+                        <a href="/workshops">
+                            <div id="menu-3" class="menu-circle"><h2 class="menu-circle-text">WORKSHOPS</h2></div>
+                        </a>
+                        <a href="/contact">
+                            <div id="menu-4" class="menu-circle"><h2 class="menu-circle-text">CONTACT</h2></div>
+                        </a>
+                    </div>
+                </div>
+                <div id="spools-div-mobile-container">
+                    <div id="spools-div-mobile">
+                        <img src="/images/spools-mobile.png">
+                        <div id="menu-overlay-box-mobile">
+                            <a href="/gallery">
+                                <div id="menu-1-mobile" class="menu-circle"><h2 class="menu-circle-text">GALLERY</h2></div>
+                            </a>
+                            <a href="/about">
+                                <div id="menu-2-mobile" class="menu-circle"><h2 class="menu-circle-text">ABOUT</h2></div>
+                            </a>
+                            <a href="/workshops">
+                                <div id="menu-3-mobile" class="menu-circle"><h2 class="menu-circle-text">WORKSHOPS</h2></div>
+                            </a>
+                            <a href="/contact">
+                                <div id="menu-4-mobile" class="menu-circle"><h2 class="menu-circle-text">CONTACT</h2></div>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -1,8 +1,11 @@
 $mainFont: 'Catamaran', sans-serif;
 $titleFont: 'Teko', sans-serif;
-//use Teko for other font
 $themeBrown: #B04D00;
 $themeYellow: #FEC712;
+$themeBackground: #D9D9D9;
+$themeBackgroundTranslucent: #D9D9D9C0;
+$themeLogoGrey: #666666;
+$themeDarkGrey: #1E1E1E;
 
 $breakPointSmall: 500px;
 $breakPointMedium: 700px;
@@ -60,7 +63,7 @@ h2 {
         height: 70px;
         background-color: $themeYellow;
         position: relative;
-        z-index: 2;
+        z-index: 4;
         
         a {
             width: 40px;
@@ -138,7 +141,7 @@ h2 {
         font-size: 40px;
         background-color: $themeYellow;
         position: absolute;
-        z-index: 1;
+        z-index: 4;
         
         a {
             text-decoration: none;
@@ -170,25 +173,23 @@ h2 {
 }
 
 #homepage-background {
-    background-color: #D9D9D9;
+    background-color: $themeBackground;
     position: absolute;
     top: 0;
-    bottom: 0;
+    height: 100%;
     left: 0;
     right: 0;
 }
 
-#landing-quote {
-    display: none;
+.landing-quote {
     margin: 0 auto;
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 1;
+    z-index: 6;
     width: 100vw;
     height: 100vh;
     background-color: #FFFFFFD0;
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -198,13 +199,28 @@ h2 {
     }
 }
 
-#logo {
+#landing-quote-desktop {
+    display: none;
+    
+    @media only screen and (min-width: $breakPointMedium) {
+        display: flex;
+    }
+}
+
+#landing-quote-mobile {
+    display: flex;
+
+    @media only screen and (min-width: $breakPointMedium) {
+        display: none;
+    }
+}
+
+#logo-homepage {
     position: relative;
-    z-index: 2;
+    z-index: 5;
     margin: 0;
-    width: 66px;
-    height: 66px;
-    background-color: #666666;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
     text-align: center;
     display: flex;
@@ -212,27 +228,75 @@ h2 {
     justify-content: center;
     font-family: $titleFont;
     line-height: 180%;
-    font-size: 8px;
+    font-size: 14px;
+    color: $themeDarkGrey;
+    background-color: $themeLogoGrey;
+    margin: 10px auto 0 auto;
+
+    h1 {
+        margin: 5px 0 0 0;
+    }
+    
+    @media only screen and (min-width: $breakPointMedium) {
+        margin: 10px 0 0 10px;
+        width: 200px;
+        height: 200px;
+        font-size: 22px;
+        
+    }
+}
+
+#logo {
+    position: relative;
+    z-index: 5;
+    margin: 0;
+    width: 905;
+    height: 66px;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: $titleFont;
+    line-height: 180%;
+    font-size: 14px;
+    color: $themeDarkGrey;
     
     h1 {
         margin: 5px 0 0 0;
     }
     
     @media only screen and (min-width: $breakPointMedium) {
+        background-color: $themeLogoGrey;
         width: 200px;
         height: 200px;
-        font-size: 18px;
+        font-size: 22px;
         
     }
 }
 
 #intro {
-    width: 200px;
     position: relative;
-    left: 30px;
+    z-index: 1;
+    border-radius: 15px;
+    background-color: $themeBackgroundTranslucent;
+    padding: 5px 0 0 0;
+    
     p {
         @include catamaranLight;
-        font-size: 22px;
+        font-size: 18px;
+        text-align: center;
+        padding: 0 10px 0 0;
+    }
+    
+    @media only screen and (min-width: $breakPointMedium) {
+        width: 260px;
+        left: 30px;
+        
+        p {
+            font-size: 22px;
+            text-align: left;
+        }
     }
 }
 
@@ -241,6 +305,7 @@ h2 {
     right: 0;
     transform: none;
     top: none;
+    display: none;
     
     p {
         position: absolute;
@@ -253,6 +318,10 @@ h2 {
         width: 50%;
     }
     
+    @media only screen and (min-width: $breakPointMedium) {
+        display: block;
+    }
+    
     @media only screen and (min-width: 1250px) {
         transform: translateX(100%);
         top: 100px;
@@ -260,15 +329,20 @@ h2 {
 }
 
 #size-limit {
-    width: 85vh;
-    max-width: 95vw;
-    height: 99vh;
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
+    width: 100%;
+    position: relative;
+    background-color: $themeBackground;
+//    height: calc(100vh - 400px);
     
-    
+    @media only screen and (min-width: $breakPointMedium) {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 99vh;
+        width: 85vh;
+        max-width: 95vw;
+    }
 }
 
 #spools-div {
@@ -277,9 +351,14 @@ h2 {
     padding-bottom: 103.87%;
     position: absolute;
     bottom: 0;
+    display: none;
     
-    @media only screen and (min-width: 1250px) {
-        
+    img {
+        display: block;
+    }
+    
+    @media only screen and (min-width: $breakPointMedium) {
+        display: block;
     }
     
     img {
@@ -311,24 +390,112 @@ h2 {
         }
 
         #menu-1 {
-            width: 25.2%;
-            height: 24.4%;
-            top: 14.6%;
-            right: -0.5%;
+            width: 24.5%;
+            height: 23.5%;
+            top: 15%;
+            right: 0.5%;
         }
 
         #menu-2 {
-            width: 23%;
-            height: 22.5%;
-            top: 33.8%;
-            left: 32.5%;
+            width: 22%;
+            height: 21%;
+            top: 34.4%;
+            left: 33.2%;
         }
 
         #menu-3 {
-            width: 25.5%;
-            height: 24%;
-            bottom: 0;
-            left: 42.5%;
+            width: 24.5%;
+            height: 23%;
+            bottom: 0.5%;
+            left: 42.8%;
+        }
+        
+        #menu-4 {
+            width: 24%;
+            height: 22.5%;
+            bottom: 9.5%;
+            right: 4.5%;
+        }
+        
+        .menu-circle-text {
+            color: #00000000;
+        }
+    }
+}
+
+#spools-div-mobile-container {
+    width: 68%;
+    margin: 0 auto;
+}
+
+#spools-div-mobile {
+    width: 100%;
+    margin: 0;
+    height: 0;
+    padding-bottom: 153.885%;
+    position: relative;
+    
+    @media only screen and (min-width: $breakPointMedium) {
+        display: none;
+    }
+    
+    img {
+        max-width: 100%;
+        display: block;
+    }
+    
+    #menu-overlay-box-mobile {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+
+        .menu-circle {
+            
+            border-radius: 50%;
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+
+            &:hover {
+                background-color: #FFFFFF80;
+            }
+            
+            h2 {
+                font-size: 20px;
+            }
+        }
+
+        #menu-1-mobile {
+            width: 35%;
+            height: 23.5%;
+            top: 15%;
+            right: 1%;
+        }
+
+        #menu-2-mobile {
+            width: 32%;
+            height: 21%;
+            top: 34.5%;
+            left: 1.5%;
+        }
+
+        #menu-3-mobile {
+            width: 35.5%;
+            height: 23.5%;
+            bottom: 0.5%;
+            left: 15%;
+        }
+        
+        #menu-4-mobile {
+            width: 34%;
+            height: 23%;
+            bottom: 9%;
+            right: 7%;
         }
         
         .menu-circle-text {
@@ -415,14 +582,13 @@ h2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-//    padding: 0 20px;
+    padding: 0 20px;
     box-sizing: border-box;
     width: 100%;
     
     @media only screen and (min-width: $breakPointMedium) {
         width: 50%;
     }
-
 }
 
 .bio-col {
@@ -497,7 +663,7 @@ h2 {
     
     #logo {
         position: absolute;
-        z-index: 2;
+        z-index: 5;
         margin: 0;
         left: 10px;
         top: -68px;
@@ -661,6 +827,7 @@ form {
 
 .icon-circle-col {
     text-align: center;
+    margin-bottom: 50px;
     
     .icon-circle {
         background-color: $themeYellow;
@@ -674,7 +841,8 @@ form {
         @include teko;
         color: #666666;
         font-size: 26px;
-        margin: 10px 0;
+        margin: 20px 0 5px 0;
+        line-height: 24px;
     }
     
     p {
@@ -705,6 +873,8 @@ form {
     flex-direction: column;
     justify-content: space-evenly;
     padding: 0 20px;
+//    height: 200px;
+    min-height: 300px;
 }
 
 .clip-circle {
@@ -714,7 +884,7 @@ form {
 }
 
 .course-container {
-    padding: 30px 0;
+    padding: 30px 0 0 0;
     
     hr {
         width: 80%;
@@ -722,15 +892,16 @@ form {
         border-right: 0;
         border-bottom: 0;
         border-left: 0;
+        margin-bottom: 80px;
     }
     
     .course-row {
-        max-height: 400px;
-        margin: 0 0 40px 0;
+//        max-height: 400px;
+        margin: 0 0 30px 0;
     }
     
     img {
-        width: 100%;
+        width: 80%;
     }
     
     .course-detail {
@@ -766,13 +937,22 @@ form {
         border-radius: 8px;
         @include teko;
         font-size: 30px;
+        margin-top: 30px;
     }
 }
 
 .workshop-intro {
+    padding-bottom: 40px;
+    
     p {
-        padding: 0 60px;
+        padding: 10px 30px;
         text-align: center;
+    }
+    
+    @media only screen and (min-width: $breakPointSmall) {
+        p {
+            padding: 10px 60px;
+        }
     }
 }
 
@@ -792,4 +972,158 @@ form {
 
 .icon-image-3 {
     padding: 0 0 0 5px;
+}
+
+.gallery-container {
+    margin: 50px 0;
+    position: relative;
+    
+    .gallery-item {
+        position: relative;
+        width: 100%;
+        
+        @media only screen and (min-width: $breakPointSmall) {
+            width: 50%;
+            float: left;
+            box-sizing: border-box;
+        }
+        
+        @media only screen and (min-width: $breakPointMedium) {
+            width: 33.333%;
+        }
+        
+        .gallery-item-click-target {
+            position: absolute;
+            z-index: 2;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            cursor: pointer;
+//            background-color: green;
+        }
+        
+        img {
+            width: 80%;
+            margin: 30px auto;
+            display: block;
+            position: relative;
+            z-index: 1;
+        }
+    }
+    
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+#swipe-photo-gallery-container {
+    width: 100%;
+    overflow-x: hidden;
+    background-color: black;
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    display: none;
+    
+    .swipe-photo-gallery {
+        width: 100%;
+        display: flex;
+//        border: 1px solid red;
+        box-sizing: border-box;
+        height: 100vh;
+        --n: 4;
+        width: calc(var(--n) * 100%);
+        transform: translateX(calc((var(--i, 0) * (-100%) / var(--n)) + var(--tx, 0px)));
+        
+
+        img {
+//            min-width: 100%;
+//            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            width: calc(100% / var(--n));
+//            border: 1px solid green;
+            pointer-events: none;
+        }
+    }
+    
+    .smooth {
+        transition: transform 0.5s ease-out;
+    }
+    
+    .swipe-gallery-controls {
+        position : absolute;
+        z-index: 6;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        
+        .close-gallery {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 50px;
+            height: 50px;
+            cursor: pointer;
+            
+            .close-gallery-cross {
+                width: 80%;
+                height: 3px;
+                border-radius: 50%;
+                position: absolute;
+                top: 50%;
+                left: 10%;
+                background-color: white;
+            }
+            
+            .cross-1 {
+                transform: translateY(-50%) rotate(45deg);
+            }
+
+            .cross-2 {
+                transform: translateY(-50%) rotate(-45deg);
+            }
+        }
+        
+        .slide-scroll-controls {
+            position: absolute;
+            height: 100px;
+            width: 100%;
+            top: 50%;
+            transform: translateY(-50%);
+            
+            .scroll-arrow {
+                position: absolute;
+                top: 0;
+                height: 100%;
+                width: 60px;
+                display: none;
+                
+                svg {
+                    position: absolute;
+                    top: 10%;
+                    left: 10%;
+                    width: 80%;
+                    height: 80%;
+                    pointer-events: none;
+                }
+            }
+            
+            #scroll-left {
+                left: 0;
+            }
+            
+            #scroll-right {
+                right: 0;
+                
+                svg {
+                    transform: rotate(180deg);
+                }
+            }
+        }
+    }
 }

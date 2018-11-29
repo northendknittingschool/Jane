@@ -1,29 +1,148 @@
 
         <script>
             $(function () {
-                $('#landing-quote').show();
+                
+                {{ if eq .Title "North End Knitting School" }}
+
                 var fadeCircles;
                 var fadeCirclesAlpha = 0;
-                $('#landing-quote').on('click touch', function() {
-                    $('#landing-quote').fadeOut('slow', function() {
-                        setTimeout(function() {
-                        fadeCircles = setInterval(fadeInMenuCircles, 50)
-                    }, 2000);
-                    });
-                    
-                });
+                
+                setTimeout(function() {
+                    if ($(window).width() < 700) {
+                        $('#landing-quote-mobile').fadeOut('slow', function() {
+                            setTimeout(function() {
+                                fadeCircles = setInterval(fadeInMenuCircles, 50)
+                            }, 2000);
+                        });
+                    } else {
+                        $('#landing-quote-desktop').fadeOut('slow', function() {
+                            setTimeout(function() {
+                                fadeCircles = setInterval(fadeInMenuCircles, 50)
+                            }, 2000);
+                        });
+                    }
+                        
+                }, 4000);
+
                 
                 function fadeInMenuCircles() {
                     fadeCirclesAlpha += 0.02;
                     $('.menu-circle').css('backgroundColor', 'rgba(255,255,255,' + fadeCirclesAlpha + ')');
                     $('.menu-circle-text').css('color', 'rgba(0,0,0,' + (2 * fadeCirclesAlpha) + ')');
 //                    alert('rgba(255,255,255,' + fadeCircles + ')');
-                    if (fadeCirclesAlpha > 0.5) {
+                    if (fadeCirclesAlpha > 0.4) {
+//                        alert('clear');
                         clearInterval(fadeCircles);
                     }
                 }
+                {{ end }}
+                
+                {{ if eq .Title "Gallery" }}
+                
+                const swipePhotoGallery = document.getElementById('swipe-photo-gallery-id');
+                
+                const swipePhotoGalleryContainer = document.getElementById('swipe-photo-gallery-container');
+                
+                const N = swipePhotoGallery.children.length;
+                swipePhotoGallery.style.setProperty('--n', N);
+//                swipePhotoGallery.style.setProperty('--i', 3);
+                
+                let x0 = null;
+                let locked = false;
+                let tx = '';
+                var mousemoveTimeout;
+                
+                function unify(e) {
+                    return e.changedTouches ? e.changedTouches[0] : e
+                };
+                
+                function lock(e) {
+                    x0 = unify(e).clientX;
+                    swipePhotoGallery.classList.toggle('smooth', !(locked = true));
+//                    alert(x0);
+                }
+                
+                let i = 0;
+                function move(e) {
+                    if(locked) {
+                        let dx = unify(e).clientX - x0;
+                        let s = Math.sign(dx);
+                        
+                        if((i > 0 || s < 0) && (i < N -1 || s > 0)) {
+                            swipePhotoGallery.style.setProperty('--i', i -= s);
+                            swipePhotoGallery.style.setProperty('--tx', '0px');
+                            swipePhotoGallery.classList.toggle('smooth', true);
+                            x0 = null;
+                        } else if (i == 0) {
+                            swipePhotoGallery.style.setProperty('--i', 0);
+                            swipePhotoGallery.style.setProperty('--tx', '0px');
+                            swipePhotoGallery.classList.toggle('smooth', true);
+                        } else if (i == N - 1) {
+                            swipePhotoGallery.style.setProperty('--i', N - 1);
+                            swipePhotoGallery.style.setProperty('--tx', '0px');
+                            swipePhotoGallery.classList.toggle('smooth', true);
+                        }
+                    }
+                    locked = false;
+                };
+                
+                function drag(e) {
+                    e.preventDefault();
+                    
+                    if(locked) {
+                        tx = Math.round(unify(e).clientX) - x0 + 'px';
+                        swipePhotoGallery.style.setProperty('--tx', tx);
+                    } else {
+                        $('.scroll-arrow').fadeIn(1000)
+                        clearTimeout(mousemoveTimeout);
+                        mousemoveTimeout = setTimeout(function() {$('.scroll-arrow').fadeOut(1000);}, 1500);
+                    }
+                }
+                
+                swipePhotoGalleryContainer.addEventListener('mousedown', lock, false);
+                swipePhotoGalleryContainer.addEventListener('touchstart', lock, false);
+                
+                swipePhotoGalleryContainer.addEventListener('mouseup', move, false);
+                swipePhotoGalleryContainer.addEventListener('touchend', move, false);
+                
+                swipePhotoGalleryContainer.addEventListener('mousemove', drag, false);
+                swipePhotoGalleryContainer.addEventListener('touchmove', drag, false);
+                
+                swipePhotoGalleryContainer.addEventListener('touchmove', e => {e.preventDefault()}, false);
+                
+                $('.gallery-item-click-target').on('click touch', function() {
+                    i = event.target.id;
+                    $('#swipe-photo-gallery-container').show();
+                    swipePhotoGallery.classList.toggle('smooth', false);
+                    swipePhotoGallery.style.setProperty('--i', i);
+                });
+                
+                $('.close-gallery').on('click touch', function() {
+                    $('#swipe-photo-gallery-container').hide();
+                });
+                
+                $('.scroll-arrow').on('click touch', function() {
+                    if (event.target.id == 'scroll-left' && i != 0) {
+                        i--;
+                        swipePhotoGallery.style.setProperty('--i', i);
+                        swipePhotoGallery.style.setProperty('--tx', '0px');
+                        swipePhotoGallery.classList.toggle('smooth', true);
+                        x0 = null;
+                    }
+                    if (event.target.id == 'scroll-right' && i != (N - 1)) {
+                        i++;
+                        swipePhotoGallery.style.setProperty('--i', i);
+                        swipePhotoGallery.style.setProperty('--tx', '0px');
+                        swipePhotoGallery.classList.toggle('smooth', true);
+                        x0 = null;
+                    }
+                });
+                
+                {{ end }}
+                
             });
             
         </script>
+
     </body>
 </html>
