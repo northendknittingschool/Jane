@@ -1,0 +1,17 @@
+---
+label: Gallery item
+hide_body: true
+is_partial: false
+fields:
+- type: boolean
+  name: menuItem
+  label: Menu item
+  hidden: true
+- type: text
+  name: type
+  label: Type
+  hidden: true
+  default: galleryItem
+- type: file
+  name: galleryImg
+  label: Gallery image
