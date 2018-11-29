@@ -42,7 +42,7 @@
             </div>
         </div>
         {{ $.Scratch.Set "counter" 0 }}
-        {{ range where .Pages "Params.type" "workshop" }}
+        {{ range where (.Pages.ByParam "order") "Params.type" "workshop" }}
         <div class="course-container">
             {{ if ne ($.Scratch.Get "counter") 0 }}
             <hr>
@@ -61,7 +61,7 @@
                     </div>
                     <div class="course-detail">
                         {{ partial "calendar-icon.svg" . }}
-                        <p>{{ .Date.Format "Monday, Jan 2, 2006" }}</p>
+                        <p>{{ dateFormat .workshopDate.Format "Monday, Jan 2, 2006" }}</p>
                     </div>
                     <div class="course-detail">
                         {{ partial "price-icon.svg" . }}
