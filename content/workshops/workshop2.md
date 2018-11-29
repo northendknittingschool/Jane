@@ -1,10 +1,12 @@
 +++
+order = 2
 type = "workshop"
-workshopTitle = "Introduction to machine knitting"
-workshopTime = "10.00 - 16.30"
-workshopDate = "Sunday 25th November"
 workshopCost = "£70 inc. lunch and materials"
+workshopDate = "Sunday 25th November"
 workshopImg = "/uploads/jane-3.jpg"
+workshopTime = "10.00 - 16.30"
+workshopTitle = "Introduction to machine knitting1"
+
 +++
 Whether you already knit and want to try machine knitting or just enjoy being creative and crafty, this is the perfect course for trying out domestic machine knitting.
 
