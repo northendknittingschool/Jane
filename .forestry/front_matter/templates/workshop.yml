@@ -14,22 +14,23 @@ fields:
   config:
     required: false
 - type: text
+  name: workshopDate
+  label: Workshop date
+- type: text
   name: workshopTime
   label: Workshop time
   config:
     required: true
-- type: datetime
-  name: workshopDate
-  label: Workshop date
 - type: text
   name: workshopCost
   label: Workshop cost
-- type: datetime
-  name: date
-  label: Workshop date
+- type: number
+  name: order
+  label: Order
+  description: Controls the order that workshops are displayed in
   config:
-    date_format: DD/MM/YYYY
-    required: true
+    min: '1'
+    step: '1'
 - type: file
   name: workshopImg
   label: Workshop image
