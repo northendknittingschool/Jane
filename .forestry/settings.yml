@@ -7,8 +7,11 @@ sections:
 - type: directory
   path: content/workshops
   label: Workshops
-  create: all
+  create: documents
   match: "**/*"
+  exclude: _index.md
+  templates:
+  - workshop
 - type: directory
   path: content/gallery
   label: Gallery
