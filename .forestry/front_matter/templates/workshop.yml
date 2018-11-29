@@ -34,3 +34,5 @@ fields:
 - type: file
   name: workshopImg
   label: Workshop image
+pages:
+- content/workshops/christmas-stockings.md
