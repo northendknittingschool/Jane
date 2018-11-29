@@ -6,35 +6,29 @@
             <div id="logo"><h1>NORTH END KNITTING SCHOOL</h1></div>
         </div>
         <div class="row-flex">
-            <div class="bio-col">
-                <h2>HI, I'M JANE</h2>
+            <div class="bio-col col-2-desktop">
+                <h2 class="mobile-only">Hi, I'm Jane</h2>
+                <img class="clip-circle" src="/uploads/jane-2.jpg">
+            </div>
+            <div class="bio-col col-1-desktop">
+                <h2 class="desktop-only">Hi, I'm Jane</h2>
                 <p>I fell in love with knitting while doing a BSc in Textiles and went on to do a PhD in seamless knitwear.</p>
                 <p>When I’m not running workshops, I am an Associate Lecturer at Nottingham Trent University, helping fashion and textile students bring their ideas to life.</p>
                 <p>Whether it’s at uni or in the workshop, my teaching philosophy is to have a go and make mistakes. That’s always when you learn the most!</p>
             </div>
-            <div class="bio-col">
-                <img class="clip-circle" src="/uploads/jane-2.jpg">
-            </div>
+            
+            
+            
         </div>
         <div class="row-flex">
             <div class="bio-col col-2-desktop">
                 <p>Rather than teaching you to replicate something, I teach you to understand the process of knitting: what do the dials and buttons do? This allows you to take what you’ve learnt, get creative, and apply it to your next project.</p>
-                <p>Head to the Workshops page to see what’s coming up — I’m looking forward to meeting you soon!</p>
+                <p>Head to the <a href="/workshops">Workshops page</a> to see what’s coming up — I’m looking forward to meeting you soon!</p>
             </div>
             <div class="bio-col col-1-desktop">
                 <img class="clip-circle" src="/images/stockings.jpg">
             </div>
+            
         </div>
-        <div class="footer-block">
-            <div class="row footer">
-                <div class="col-50">
-                    <h2>QUESTIONS?</h2>
-                    <p>Visit the Contact page to get in touch.</p>
-                </div>
-                <div class="col-50">
-                    <h2>READY TO BOOK?</h2>
-                    <p>See all available dates and reserve your place on the Bookings page.</p>
-                </div>
-            </div>
-        </div>
+{{ partial "footer-content.html" . }}
 {{ partial "footer.html" . }}

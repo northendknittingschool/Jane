@@ -21,7 +21,7 @@
                     <img class="icon-image icon-image-2" src="/images/materials-icon.png">
                 </div>
                 <h3>TAKE IT<br>HOME</h3>
-                 <p>Everything included</p>
+                 <p>Take home what you've made on the course</p>
             </div>
             <div class="col-33 icon-circle-col">
                 <div class="icon-circle">
@@ -72,23 +72,12 @@
             
             <div class="workshop-intro">
                 {{ .Content }}
-                <button>BOOK</button>
+                <a class="book-button" href="/contact"><span>BOOK</span></a>
             </div>
             
         </div>
         {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
         {{ end }}
 
-        <div class="footer-block">
-            <div class="row footer">
-                <div class="col-50">
-                    <h2>QUESTIONS?</h2>
-                    <p>Visit the Contact page to get in touch.</p>
-                </div>
-                <div class="col-50">
-                    <h2>READY TO BOOK?</h2>
-                    <p>See all available dates and reserve your place on the Bookings page.</p>
-                </div>
-            </div>
-        </div>
+{{ partial "footer-content.html" . }}
 {{ partial "footer.html" . }}

@@ -30,6 +30,10 @@ p {
     @include catamaranLight;
     font-size: 20px;
     overflow-wrap: break-word;
+    
+    a {
+        color: inherit;
+    }
 }
 
 
@@ -140,12 +144,13 @@ h2 {
         @include teko;
         font-size: 40px;
         background-color: $themeYellow;
+        color: $themeDarkGrey;
         position: absolute;
         z-index: 4;
         
         a {
             text-decoration: none;
-            color: inherit;
+            color: $themeDarkGrey;
         }
         
         li {
@@ -259,7 +264,7 @@ h2 {
     justify-content: center;
     font-family: $titleFont;
     line-height: 180%;
-    font-size: 14px;
+    font-size: 12px;
     color: $themeDarkGrey;
     
     h1 {
@@ -389,32 +394,60 @@ h2 {
             }
         }
 
+//        #menu-1 {
+//            width: 24.5%;
+//            height: 23.5%;
+//            top: 15%;
+//            right: 0.5%;
+//        }
+//
+//        #menu-2 {
+//            width: 22%;
+//            height: 21%;
+//            top: 34.4%;
+//            left: 33.2%;
+//        }
+//
+//        #menu-3 {
+//            width: 24.5%;
+//            height: 23%;
+//            bottom: 0.5%;
+//            left: 42.8%;
+//        }
+//        
+//        #menu-4 {
+//            width: 24%;
+//            height: 22.5%;
+//            bottom: 9.5%;
+//            right: 4.5%;
+//        }
+        
         #menu-1 {
-            width: 24.5%;
-            height: 23.5%;
-            top: 15%;
-            right: 0.5%;
+            width: 21%;
+            height: 20%;
+            top: 17%;
+            right: 2.2%;
         }
 
         #menu-2 {
-            width: 22%;
-            height: 21%;
-            top: 34.4%;
-            left: 33.2%;
+            width: 19%;
+            height: 18%;
+            top: 35.9%;
+            left: 34.5%;
         }
 
         #menu-3 {
-            width: 24.5%;
-            height: 23%;
-            bottom: 0.5%;
-            left: 42.8%;
+            width: 21.5%;
+            height: 20.5%;
+            bottom: 1.9%;
+            left: 44.4%;
         }
         
         #menu-4 {
-            width: 24%;
-            height: 22.5%;
-            bottom: 9.5%;
-            right: 4.5%;
+            width: 20%;
+            height: 19%;
+            bottom: 10.8%;
+            right: 6.1%;
         }
         
         .menu-circle-text {
@@ -656,6 +689,15 @@ h2 {
         color: white;
         margin: 0 0 60px 0;
     }
+    
+    #made-by-micro {
+        text-align: center;
+        margin-bottom: 10px;
+        
+        a {
+            color: $themeBrown;
+        }
+    }
 }
 
 .contact-header {
@@ -721,10 +763,12 @@ h2 {
         h2 {
             color: $themeBrown;
             text-align: center;
+            margin: 25px auto 15px auto;
         }
         
         p {
             margin: 20px 30px;
+            margin: 0 30px 20px 30px;
             text-align: center;
         }
             
@@ -815,7 +859,7 @@ form {
 
         label {
             text-align: right;
-            margin: 5px 0 24px 0;
+            margin: 3px 0 14px 0;
             padding-right: 10px;
         }
 
@@ -909,15 +953,18 @@ form {
         
         svg {
             float: left;
-            height: 100%;
+            position: relative;
+            top: 15px;
+            width: 30px;
             margin-right: 10px;
+            transform: translateY(-50%);
         }
     }
     
     h3 {
         @include catamaranLight;
         font-size: 24px;
-        text-align: center;
+        text-align: left;
         margin: 0;
     }
     
@@ -939,7 +986,28 @@ form {
         font-size: 30px;
         margin-top: 30px;
     }
+    
+    .book-button {
+        width: 100px;
+        height: 45px;
+        margin: 0 auto;
+        display: block;
+        background-color: $themeBrown;
+        color: white;
+        border-radius: 8px;
+        @include teko;
+        font-size: 30px;
+        margin-top: 30px;
+        text-align: center;
+        padding-top: 3px;
+        text-decoration: none;
+        
+        &:hover {
+            cursor: pointer;
+        }
+    }
 }
+
 
 .workshop-intro {
     padding-bottom: 40px;
@@ -1103,6 +1171,10 @@ form {
                 width: 60px;
                 display: none;
                 
+                &:hover {
+                    cursor: pointer;
+                }
+                
                 svg {
                     position: absolute;
                     top: 10%;
@@ -1127,3 +1199,36 @@ form {
         }
     }
 }
+
+.desktop-only {
+    display: none;
+    
+    @media only screen and (min-width: $breakPointMedium) {
+        display: block;
+    }
+}
+
+.mobile-only {
+    display: block;
+    
+    @media only screen and (min-width: $breakPointMedium) {
+        display: none;
+    }
+}
+
+.thankyou {
+    width: 100%;
+    margin: 100px 0;
+    color: $themeDarkGrey;
+    
+    p {
+        text-align: center;
+    }
+    
+    @media only screen and (min-width: $breakPointMedium) {
+        margin-top: 400px;
+        min-height: 15vh;
+    }
+}
+
+

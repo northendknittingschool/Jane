@@ -7,34 +7,45 @@
                 var fadeCircles;
                 var fadeCirclesAlpha = 0;
                 
+ 
+                
                 setTimeout(function() {
                     if ($(window).width() < 700) {
                         $('#landing-quote-mobile').fadeOut('slow', function() {
                             setTimeout(function() {
                                 fadeCircles = setInterval(fadeInMenuCircles, 50)
-                            }, 2000);
+                            }, 500);
                         });
                     } else {
                         $('#landing-quote-desktop').fadeOut('slow', function() {
                             setTimeout(function() {
                                 fadeCircles = setInterval(fadeInMenuCircles, 50)
-                            }, 2000);
+                            }, 500);
                         });
                     }
                         
-                }, 4000);
+                }, 3000);
 
                 
                 function fadeInMenuCircles() {
                     fadeCirclesAlpha += 0.02;
                     $('.menu-circle').css('backgroundColor', 'rgba(255,255,255,' + fadeCirclesAlpha + ')');
-                    $('.menu-circle-text').css('color', 'rgba(0,0,0,' + (2 * fadeCirclesAlpha) + ')');
-//                    alert('rgba(255,255,255,' + fadeCircles + ')');
-                    if (fadeCirclesAlpha > 0.4) {
-//                        alert('clear');
+                    $('.menu-circle-text').css('color', 'rgba(0,0,0,' + (1.25 * fadeCirclesAlpha) + ')');
+                    if (fadeCirclesAlpha > 0.8) {
                         clearInterval(fadeCircles);
                     }
                 }
+                {{ end }}
+                
+                {{ if eq .Title "North End Knitting School - Home" }}
+                
+                $('#landing-quote-mobile').hide();
+                $('#landing-quote-desktop').hide();
+                
+                $('.menu-circle').css('backgroundColor', 'rgba(255,255,255,0.8)');
+                $('.menu-circle-text').css('color', 'rgba(0,0,0,1)');
+                
+                                
                 {{ end }}
                 
                 {{ if eq .Title "Gallery" }}

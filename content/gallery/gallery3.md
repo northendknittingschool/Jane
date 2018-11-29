@@ -1,5 +1,5 @@
 +++
 menuItem = false
 type = "galleryItem"
-galleryImg = "/uploads/jane-4.jpg"
+galleryImg = "/uploads/arty knitting 1.jpg"
 +++
