@@ -7,7 +7,7 @@ fields:
   hidden: true
   default: workshop
   label: Workshop
-  name: workshop
+  name: type
 - type: text
   name: workshopTitle
   label: Workshop title
