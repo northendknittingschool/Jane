@@ -35,4 +35,6 @@ fields:
   name: workshopImg
   label: Workshop image
 pages:
+- content/workshops/test.md
+- content/workshops/cable-cushion.md
 - content/workshops/christmas-stockings.md
