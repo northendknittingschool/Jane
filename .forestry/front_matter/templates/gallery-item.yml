@@ -16,6 +16,7 @@ fields:
   name: galleryImg
   label: Gallery image
 pages:
+- content/gallery/finished-stockings.md
 - content/gallery/partial-loops.md
 - content/gallery/gallery-2.md
 - content/gallery/gallery-1.md
