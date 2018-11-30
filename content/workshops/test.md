@@ -13,3 +13,31 @@ workshopTitle = "Christmas stockigns again"
 Workshop to make Christmas stockings.
 
 Places limited so book now!
+
+Workshop to make Christmas stockings.
+
+Places limited so book now!
+
+Workshop to make Christmas stockings.
+
+Places limited so book now!
+
+Workshop to make Christmas stockings.
+
+Places limited so book now!
+
+Workshop to make Christmas stockings.
+
+Places limited so book now!
+
+Workshop to make Christmas stockings.
+
+Places limited so book now!
+
+Workshop to make Christmas stockings.
+
+Places limited so book now!
+
+Workshop to make Christmas stockings.
+
+Places limited so book now!
