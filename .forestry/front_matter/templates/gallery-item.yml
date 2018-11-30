@@ -16,6 +16,7 @@ fields:
   name: galleryImg
   label: Gallery image
 pages:
+- content/gallery/giant-cables.md
 - content/gallery/shrink-to-fit-hottie-cover.md
 - content/gallery/finished-stockings.md
 - content/gallery/partial-loops.md
