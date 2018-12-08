@@ -16,6 +16,7 @@ fields:
   name: galleryImg
   label: Gallery image
 pages:
+- content/gallery/3-stockings.md
 - content/gallery/more-progress.md
 - content/gallery/sweet-potato-and-coconut-soup.md
 - content/gallery/stockings-in-progress.md
