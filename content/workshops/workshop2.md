@@ -1,16 +1,31 @@
 +++
-draft = true
-order = 2
+order = 4
 type = "workshop"
 workshopCost = "£70 inc. lunch and materials"
-workshopDate = "Sunday 25th November"
+workshopDate = "Sunday 17th February 2019"
 workshopImg = "/uploads/jane-3.jpg"
-workshopTime = "10.00 - 16.30"
-workshopTitle = "Introduction to machine knitting1"
+workshopTime = "10.00 am - 04.30 pm"
+workshopTitle = "Introduction to machine knitting"
 
 +++
 Whether you already knit and want to try machine knitting or just enjoy being creative and crafty, this is the perfect course for trying out domestic machine knitting.
 
-Throughout the day you will learn a range of techniques that you can experiment with to produce a range of exciting samples to take home with you.
+This one day course will introduce you to the key functions of a Knitmaster knitting machine, and you will leave with the following skills:- 
+
+\-basic and e-wrap cast-on techniques
+
+\-Turned up hem
+
+\-Striping
+
+\-Holding needles to create tuck textures
+
+\-Punchcard knitting
+
+\-Basic shaping techniques
+
+\-Binding off
 
 This is the perfect course if you are considering investing in your own knitting machine.
+
+If you have already bought a machine, and it is a different make, feel free to bring it along!
