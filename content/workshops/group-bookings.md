@@ -9,8 +9,8 @@ workshopTime = "10.00 am - 04.30 pm"
 workshopTitle = "Group booking discount"
 
 +++
-A group booking discount is available for all workshops. 
+Good news! A group booking discount is available for all workshops.
 
-£65 is for a one day workshop, and applies when 3 people book together. 
+£65 is for a one day workshop, and applies when 3 people book together.
 
 We can find a mutually convenient date for your chosen workshop.
