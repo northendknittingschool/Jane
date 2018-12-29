@@ -1,7 +1,7 @@
 +++
 date = "2018-11-29T20:55:02+00:00"
 draft = true
-order = "001"
+order = "09"
 title = "Christmas stockings"
 type = "workshop"
 workshopCost = "£70 includes materials, lunch, tea and coffee."
