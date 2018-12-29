@@ -1,5 +1,4 @@
 +++
-draft = true
 order = 4
 type = "workshop"
 workshopCost = "£70 inc. lunch and materials"
