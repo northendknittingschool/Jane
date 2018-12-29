@@ -1,6 +1,6 @@
 +++
 date = "2018-12-29T14:08:18+00:00"
-order = "001"
+order = 1
 type = ""
 workshopCost = "£65 per person"
 workshopDate = "Any mutually convenient Sunday"
