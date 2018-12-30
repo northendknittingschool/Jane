@@ -35,6 +35,7 @@ fields:
   name: workshopImg
   label: Workshop image
 pages:
+- content/workshops/group-booking-discount.md
 - content/workshops/evening-class.md
 - content/workshops/christmas-stockings.md
 - content/workshops/punchcard cushion cover.md
