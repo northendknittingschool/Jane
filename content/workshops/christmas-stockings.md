@@ -1,22 +1,28 @@
 +++
 date = "2018-11-29T20:55:02+00:00"
 draft = true
-order = 9
+order = 5
 title = "Christmas stockings"
 type = "workshop"
 workshopCost = "£70 includes materials, lunch, tea and coffee."
-workshopDate = "9th December 2018 - ONLY 1 PLACE LEFT!"
-workshopImg = "/uploads/stockings.jpg"
+workshopDate = "Friday 1st February 2019"
+workshopImg = "/uploads/jumper.jpg"
 workshopTime = "10 am - 4.30 pm"
-workshopTitle = "Knit yourself a Christmas stocking"
+workshopTitle = "Introduction to garment knitting"
 
 +++
-Come and learn to machine knit and make a Christmas stocking.
+This one day course is aimed at beginners and intermediate knitters who have their own machine and want to make their own garments.
 
-You do not need machine knitting skills, however it would help if you enjoy other crafts as some parts are quite tricky.
+Throughout the day you will a learn a range of techniques required for making shaped garments, please note there won't be any time for developing fabric patterns and textures.
 
-In the morning you will learn how to cast on with a neat edge, knit stripes, knit patterns with a punch card, turn a heel by partial knitting and bind off.
+Techniques covered:-
 
-After a light lunch you will spend the afternoon knitting your stocking with lots of support from Jane.
+Turned up hem
 
-As its Christmas, there will be a celebratory glass of fizz to celebrate your achievements!
+Tension swatches and calculating knit patterns (the basics)
+
+Fully fashioned shaping (including shaping a neckline)
+
+Binding off
+
+Linking on a neck trim (folded sandwhich trim)
