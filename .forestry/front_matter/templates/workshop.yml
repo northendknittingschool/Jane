@@ -36,6 +36,7 @@ fields:
   label: Workshop image
 pages:
 - content/workshops/group-duscount.md
+- content/workshops/test.md
 - content/workshops/evening-class.md
 - content/workshops/intro to garment.md
 - content/workshops/punchcard cushion cover.md
