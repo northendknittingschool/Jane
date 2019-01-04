@@ -5,7 +5,7 @@ title = "Cable cushion"
 type = "workshop"
 workshopCost = "£70 includes yarn and lunch"
 workshopDate = "27th January 2019"
-workshopImg = "/uploads/button side-3.jpg"
+workshopImg = "/uploads/button side-1-1.jpg"
 workshopTime = "10.00 am - 04.30 pm"
 workshopTitle = "Punch card cushion cover with button band"
 
