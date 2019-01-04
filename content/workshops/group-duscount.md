@@ -1,7 +1,7 @@
 +++
 date = "2018-12-30T13:28:05+00:00"
 order = 1
-type = ""
+type = "workshop"
 workshopCost = "£65"
 workshopDate = "Any mutually convenient date"
 workshopImg = "/uploads/button side-4.jpg"
