@@ -10,9 +10,9 @@ workshopTime = "10 am - 4.30 pm"
 workshopTitle = "Introduction to garment knitting"
 
 +++
-This one day course is aimed at beginners and intermediate knitters who have their own machine and want to make their own garments.
+This one day workshop is aimed at beginners and intermediate knitters who have their own machine and want to make garments.
 
-Throughout the day you will a learn a range of techniques required for making shaped garments, please note there won't be any time for developing fabric patterns and textures.
+Throughout the day you will a learn a range of garment techniques, please note there won't be any time for developing fabric patterns and textures.
 
 Techniques covered:-
 
