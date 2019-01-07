@@ -7,7 +7,7 @@ workshopCost = "£108 includes some materials"
 workshopDate = "Tuesday 22nd January - 26th February 2019 (6 sessions)"
 workshopImg = "/uploads/IMG_6901.jpg"
 workshopTime = "7.00pm - 9.00pm"
-workshopTitle = "Machine knitting evening class (Beginners / intermediate)"
+workshopTitle = "ONLY 1 PLACE LEFT!    Machine knitting evening class (Beginners / intermediate)"
 
 +++
 6 Week evening class, can be extended to 9 weeks if required.
