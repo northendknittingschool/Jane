@@ -1,5 +1,5 @@
 +++
-order = 4
+order = 2
 type = "workshop"
 workshopCost = "£70 inc. lunch and materials"
 workshopDate = "Sunday 17th February 2019"
