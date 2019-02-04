@@ -1,6 +1,5 @@
 +++
 date = "2019-02-04T13:28:00+00:00"
-draft = true
 order = 5
 type = "workshop"
 workshopCost = "£70 including materials and lunch"
