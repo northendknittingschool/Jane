@@ -15,7 +15,7 @@ Skills involved:
 
 \-Turned up hem
 
-\-knitting with Lycra 
+\-knitting with Lycra
 
 \-punchcard knitting
 
@@ -27,6 +27,8 @@ Skills involved:
 
 \-binding off
 
-In the morning you will sample various yarns and punch cards to design your gloves. 
+In the morning you will sample various yarns and punch cards to design your gloves.
 
-After morning break you will start knitting the gloves and continue after lunch. 
+After morning break you will start knitting the gloves and continue after lunch.
+
+email Jane at northendknittingschool@gmail.comto book.
