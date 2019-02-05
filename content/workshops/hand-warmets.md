@@ -23,4 +23,6 @@ skills covered:
 
 \-striping
 
-\-bind off 
+\-bind off
+
+Email Jane at northendknittingschool@gmail.com to book.
