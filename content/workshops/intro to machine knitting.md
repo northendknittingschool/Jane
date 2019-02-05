@@ -10,7 +10,7 @@ workshopTitle = "Introduction to machine knitting"
 +++
 Whether you already knit and want to try machine knitting or just enjoy being creative and crafty, this is the perfect course for trying out domestic machine knitting.
 
-This one day course will introduce you to the key functions of a Knitmaster knitting machine, and you will leave with the following skills:- 
+This one day course will introduce you to the key functions of a Knitmaster knitting machine, and you will leave with the following skills:-
 
 \-basic and e-wrap cast-on techniques
 
@@ -29,3 +29,5 @@ This one day course will introduce you to the key functions of a Knitmaster knit
 This is the perfect course if you are considering investing in your own knitting machine.
 
 If you have already bought a machine, and it is a different make, feel free to bring it along!
+
+Email Jane at northendknittingschool@gmail.com to book.
