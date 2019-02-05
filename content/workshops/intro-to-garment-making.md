@@ -24,3 +24,5 @@ Fully fashioned shaping (including shaping necklines)
 binding off
 
 Linking on a neck trim (folded sandwhich trim)
+
+Email Jane at northendknittingschool@gmail.com          to book.
