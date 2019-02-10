@@ -1,7 +1,7 @@
 +++
 order = 2
 type = "workshop"
-workshopCost = "£70 inc. lunch and materials"
+workshopCost = "£65 inc. lunch and materials"
 workshopDate = "Sunday 17th February 2019"
 workshopImg = "/uploads/bind off-1.jpg"
 workshopTime = "10.00 am - 04.30 pm"
