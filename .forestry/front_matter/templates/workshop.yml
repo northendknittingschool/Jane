@@ -36,9 +36,9 @@ fields:
   label: Workshop image
 pages:
 - content/workshops/group-duscount.md
-- content/workshops/intro-to-garment-making.md
 - content/workshops/punchcard cushion cover.md
 - content/workshops/evening-class.md
 - content/workshops/hand-warmets.md
 - content/workshops/fingerless-gloves.md
+- content/workshops/intro-to-garment-making.md
 - content/workshops/intro to garment.md
