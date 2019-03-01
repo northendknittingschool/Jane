@@ -6,7 +6,7 @@ workshopCost = "£65 includes materials and lunch"
 workshopDate = "Sunday 7th April"
 workshopImg = "/uploads/jumper-1.jpg"
 workshopTime = "10.00 am - 04.30 pm"
-workshopTitle = "Intro to garment knitting (Fully Booked)"
+workshopTitle = "Intro to garment knitting"
 
 +++
 This 1 day workshop is aimed at beginners and intermediate knitters who have their own machine, and want to make garments.
