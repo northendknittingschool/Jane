@@ -16,6 +16,7 @@ fields:
   name: galleryImg
   label: Gallery image
 pages:
+- content/gallery/Back view.md
 - content/gallery/Sude view.md
 - content/gallery/punchcard-cushion.md
 - content/gallery/sweet-potato-and-coconut-soup.md
