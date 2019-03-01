@@ -1,7 +1,6 @@
 +++
 date = "2018-11-30T09:54:53+00:00"
-draft = true
-order = 3
+order = 7
 title = "Cable cushion"
 type = "workshop"
 workshopCost = "£60 includes yarn and lunch"
