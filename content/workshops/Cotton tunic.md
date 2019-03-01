@@ -4,7 +4,7 @@ order = 5
 type = "workshop"
 workshopCost = "£150 plus yarn cost (£26) (includes lunch)"
 workshopDate = "Sun 14th April - Tues 16th April AND Sat 4th May -Monday 6th May"
-workshopImg = "/uploads/778BDD0B-903C-4CA0-99E0-C0BEE1083514.jpeg"
+workshopImg = "/uploads/6B6CD786-5679-4F24-93D5-3DD269F542A6.jpeg"
 workshopTime = "10.00 -04.30 finish after lunch on Tuesday/ Monday "
 workshopTitle = "2 1/2 day Cotton jumper workshop"
 
