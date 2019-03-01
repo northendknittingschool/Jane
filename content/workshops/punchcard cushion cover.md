@@ -4,11 +4,11 @@ draft = true
 order = 3
 title = "Cable cushion"
 type = "workshop"
-workshopCost = "£70 includes yarn and lunch"
-workshopDate = "27th January 2019"
+workshopCost = "£60 includes yarn and lunch"
+workshopDate = "Available as a group booking"
 workshopImg = "/uploads/button side-1-1.jpg"
 workshopTime = "10.00 am - 04.30 pm"
-workshopTitle = "2 PLACES LEFT.   Punch card cushion cover with button band"
+workshopTitle = "Punch card cushion cover with button band"
 
 +++
 This one day workshop is suitable for beginners and intermediate knitters; beginners should have some experience on a machine.
