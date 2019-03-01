@@ -16,15 +16,15 @@ fields:
   name: galleryImg
   label: Gallery image
 pages:
-- content/gallery/button-band-cushion.md
-- content/gallery/sweet-potato-and-coconut-soup.md
 - content/gallery/punchcard-cushion.md
+- content/gallery/sweet-potato-and-coconut-soup.md
+- content/gallery/button-band-cushion.md
 - content/gallery/3-stockings.md
+- content/gallery/busy-bees.md
 - content/gallery/more-progress.md
 - content/gallery/stockings-in-progress.md
-- content/gallery/busy-bees.md
-- content/gallery/gallery-2.md
-- content/gallery/test.md
+- content/gallery/giant-cables.md
 - content/gallery/shrink-to-fit-hottie-cover.md
 - content/gallery/finished-stockings.md
-- content/gallery/giant-cables.md
+- content/gallery/gallery-2.md
+- content/gallery/test.md
