@@ -35,6 +35,7 @@ fields:
   name: workshopImg
   label: Workshop image
 pages:
+- content/workshops/Cotton tunic.md
 - content/workshops/punchcard cushion cover.md
 - content/workshops/intro-to-garment-making.md
 - content/workshops/fingerless-gloves.md
