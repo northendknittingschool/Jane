@@ -1,9 +1,9 @@
 +++
 date = "2019-01-05T11:03:15+00:00"
-order = 3
+order = 4
 type = "workshop"
 workshopCost = "£65 includes materials and lunch"
-workshopDate = "Sunday 24th February"
+workshopDate = "Sunday 7th April"
 workshopImg = "/uploads/jumper-1.jpg"
 workshopTime = "10.00 am - 04.30 pm"
 workshopTitle = "Intro to garment knitting (Fully Booked)"
@@ -17,12 +17,16 @@ Techniques covered:-
 
 Turned up hem
 
+creating hems with a ribber
+
 Tension swatches and calculating knit patterns (the basics)
 
 Fully fashioned shaping (including shaping necklines)
 
+seaming in the machine
+
 binding off
 
-Linking on a neck trim (folded sandwhich trim)
+Linking on a neck trim 
 
 Email Jane at northendknittingschool@gmail.com          to book.
