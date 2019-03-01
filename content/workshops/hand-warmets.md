@@ -9,7 +9,7 @@ workshopTime = "10.00-4.30 pm"
 workshopTitle = "Hand warmers (beginners)"
 
 +++
-This is a fun workshop if you are interested in working with pattern and colour.
+This is a fun workshop if you are interested in working with pattern and colour, and learning the discipline of turning samples into knit instructions.
 
 come and design and make some hand warmers using a range of yarns, punchcard patterning and stripes.
 
@@ -23,6 +23,10 @@ skills covered:
 
 \-striping
 
+\-working with Lycra 
+
 \-bind off
+
+\-writing knit instructions
 
 Email Jane at northendknittingschool@gmail.com to book.
