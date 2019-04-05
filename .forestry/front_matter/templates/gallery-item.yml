@@ -1,7 +1,6 @@
 ---
 label: Gallery item
 hide_body: true
-is_partial: false
 fields:
 - type: boolean
   name: menuItem
