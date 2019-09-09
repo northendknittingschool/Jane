@@ -11,7 +11,7 @@ workshopTitle = "Slouchy Socks"
 +++
 Come and make a lovely pair of slouchy slipper socks.
 
-suitable for beginners with experience of other fiddly crafts. 
+suitable for beginners with experience of other crafts requiring dexterity as some of the processes are fiddly.
 
 Skills involved:
 
