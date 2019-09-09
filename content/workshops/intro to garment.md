@@ -4,11 +4,11 @@ draft = true
 order = 5
 title = "Christmas stockings"
 type = "workshop"
-workshopCost = "£70 includes materials, lunch, tea and coffee."
-workshopDate = "Friday 1st February 2019"
-workshopImg = "/uploads/jumper.jpg"
+workshopCost = "£70 includes materials and lunch"
+workshopDate = "Sunday 1st & 15th December 2019"
+workshopImg = "/uploads/IMG_6859.jpg"
 workshopTime = "10 am - 4.30 pm"
-workshopTitle = "Introduction to garment knitting"
+workshopTitle = "Christmas Stocking"
 
 +++
 This one day workshop is aimed at beginners and intermediate knitters who have their own machine and want to make garments.
