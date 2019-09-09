@@ -1,8 +1,8 @@
 +++
-order = 8
+order = "8"
 type = "workshop"
-workshopCost = "£60 inc. lunch and materials"
-workshopDate = "Available as a group booking"
+workshopCost = "£70 inc. lunch and materials"
+workshopDate = "Sunday Oct. 13th 2019 "
 workshopImg = "/uploads/bind off-1.jpg"
 workshopTime = "10.00 am - 04.30 pm"
 workshopTitle = "Introduction to machine knitting"
