@@ -9,3 +9,8 @@ workshopTime = "10.0 -1.00 pm"
 workshopTitle = "Beanie Hat"
 
 +++
+This half day workshop is suitable for beginners. A fun project - come and make a beanie hat, topped off with a Pom-pom! 
+
+Contact Jane to book:-
+
+northendknittingschool@gmail.com
