@@ -34,13 +34,13 @@ fields:
   name: workshopImg
   label: Workshop image
 pages:
+- content/workshops/punchcard cushion cover.md
 - content/workshops/Slouchy sox.md
 - content/workshops/intro to garment.md
 - content/workshops/hand-warmets.md
 - content/workshops/fingerless-gloves.md
 - content/workshops/Beanie.md
 - content/workshops/group-duscount.md
-- content/workshops/punchcard cushion cover.md
 - content/workshops/intro-to-garment-making.md
 - content/workshops/evening-class.md
 - content/workshops/Cotton tunic.md
