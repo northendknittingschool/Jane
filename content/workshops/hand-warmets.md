@@ -1,6 +1,6 @@
 +++
 date = "2019-02-04T13:28:00+00:00"
-order = 3
+order = 5
 type = "workshop"
 workshopCost = "£70 including materials and lunch"
 workshopDate = "Sunday 17th November"
@@ -9,11 +9,9 @@ workshopTime = "10.00-4.30 pm"
 workshopTitle = "Hand warmers (beginners)"
 
 +++
-This is a fun workshop if you are interested in working with pattern and colour, and learning the discipline of turning samples into knit instructions.
+This is a fun workshop suitable for beginners with experience of other crafts requiring dexterity, as some processes are fiddly. 
 
-come and design and make some hand warmers using a range of yarns, punchcard patterning and stripes.
-
-you will spend most of the morning sampling and designing your hand warmer. After a lovely lunch of home made soup you will finish knitting them in the afternoon.
+you will spend the first part of the morning sampling and designing your hand warmer. Then you will spend the rest of the day knitting them.
 
 skills covered:
 
@@ -23,10 +21,6 @@ skills covered:
 
 \-striping
 
-\-working with Lycra 
-
 \-bind off
-
-\-writing knit instructions
 
 Email Jane at northendknittingschool@gmail.com to book.
