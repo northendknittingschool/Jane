@@ -34,6 +34,7 @@ fields:
   name: workshopImg
   label: Workshop image
 pages:
+- content/workshops/group-duscount.md
 - content/workshops/Beanie.md
 - content/workshops/Slouchy sox.md
 - content/workshops/intro to garment.md
@@ -43,4 +44,3 @@ pages:
 - content/workshops/intro-to-garment-making.md
 - content/workshops/evening-class.md
 - content/workshops/Cotton tunic.md
-- content/workshops/group-duscount.md
