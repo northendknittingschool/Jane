@@ -34,8 +34,8 @@ fields:
   name: workshopImg
   label: Workshop image
 pages:
+- content/workshops/Christmas stocking.md
 - content/workshops/Slouchy sox.md
-- content/workshops/intro to garment.md
 - content/workshops/punchcard cushion cover.md
 - content/workshops/hand-warmets.md
 - content/workshops/fingerless-gloves.md
