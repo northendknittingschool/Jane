@@ -1,6 +1,6 @@
 +++
 date = "2019-02-04T10:54:16+00:00"
-order = 2
+order = 4
 type = "workshop"
 workshopCost = "£70 includes materials and lunch"
 workshopDate = "Sunday Nov.3rd 2019"
@@ -13,15 +13,9 @@ Come and develop your skills and take home a lovely pair of bespoke fingerless g
 
 Skills involved:
 
-\-Turned up hem
-
-\-knitting with Lycra
+\-Ribbed hem
 
 \-punchcard knitting
-
-\-plating
-
-\-fully fashioned widening
 
 \-partial knitting
 
