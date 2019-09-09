@@ -2,8 +2,8 @@
 date = "2019-02-04T10:54:16+00:00"
 order = 2
 type = "workshop"
-workshopCost = "£65 includes materials and lunch"
-workshopDate = "Available for group booking "
+workshopCost = "£70 includes materials and lunch"
+workshopDate = "Sunday Nov.3rd 2019"
 workshopImg = "/uploads/CDD0A100-6BDC-4744-9837-F8541A0B3CF5.jpeg"
 workshopTime = "10.00 - 4.30 pm"
 workshopTitle = "Fingerless glove workshop (Intermediate)"
