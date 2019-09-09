@@ -9,6 +9,8 @@ workshopTime = "10.00 am - 04.30 pm"
 workshopTitle = "Group booking discount"
 
 +++
-Good news, if you and 2 friends book onto a workshop you will save £5 each. 
+Good news, if you and 2 friends book onto a workshop you will save £5 each.
 
 This is valid for any 1 day workshop, just contact Jane to find a mutually convenient date.
+
+northendknittingschool@gmail.com
