@@ -11,18 +11,10 @@ workshopTime = "10 am - 4.30 pm"
 workshopTitle = "Christmas Stocking"
 
 +++
-This one day workshop is aimed at beginners and intermediate knitters who have their own machine and want to make garments.
+This one day workshop is suitable for beginners with experience of other crafts requiring dexterity, as parts of the process are fiddly!
 
-Throughout the day you will a learn a range of garment techniques, please note there won't be any time for developing fabric patterns and textures.
+This is a lovely workshop to do with friends to get you in the Christmas spirit, the group booking discount applies.
 
-Techniques covered:-
+Contact Jane to book:-
 
-Turned up hem
-
-Tension swatches and calculating knit patterns (the basics)
-
-Fully fashioned shaping (including shaping a neckline)
-
-Binding off
-
-Linking on a neck trim (folded sandwhich trim)
+northendknittingschool@gmail.com
