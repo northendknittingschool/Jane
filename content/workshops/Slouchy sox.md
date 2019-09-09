@@ -1,6 +1,6 @@
 +++
 draft = true
-order = nil
+order = 7
 type = "workshop"
 workshopCost = "£70 includes lunch and materials"
 workshopDate = "Sunday January 19th 2020"
