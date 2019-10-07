@@ -6,7 +6,7 @@ workshopCost = "£70 includes materials and lunch"
 workshopDate = "Sunday Nov.17th 2019"
 workshopImg = "/uploads/CDD0A100-6BDC-4744-9837-F8541A0B3CF5.jpeg"
 workshopTime = "10.00 - 4.30 pm"
-workshopTitle = "Fingerless glove workshop (Intermediate)"
+workshopTitle = "Fingerless glove workshop (Intermediate) FULLY BOOKED!"
 
 +++
 Come and develop your skills and take home a lovely pair of bespoke fingerless gloves.
