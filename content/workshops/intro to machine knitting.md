@@ -2,7 +2,7 @@
 order = "2"
 type = "workshop"
 workshopCost = "£70 inc. lunch and materials"
-workshopDate = "Sunday Oct. 13th 2019 "
+workshopDate = "Sunday January 19th 2020"
 workshopImg = "/uploads/bind off-1.jpg"
 workshopTime = "10.00 am - 04.30 pm"
 workshopTitle = "Introduction to machine knitting"
