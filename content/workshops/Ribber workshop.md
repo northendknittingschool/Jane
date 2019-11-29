@@ -1,6 +1,5 @@
 +++
-draft = true
-order = 9
+order = 3
 type = "workshop"
 workshopCost = "£70 includes lunch and materials."
 workshopDate = "Sunday February 9th 2020"
