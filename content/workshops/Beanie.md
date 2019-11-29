@@ -1,5 +1,5 @@
 +++
-order = 3
+order = 9
 type = "workshop"
 workshopCost = "£30 includes materials "
 workshopDate = "TBC. Contact Jane if interested"
