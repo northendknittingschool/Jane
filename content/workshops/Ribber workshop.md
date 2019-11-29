@@ -4,7 +4,7 @@ order = 9
 type = "workshop"
 workshopCost = "£70 includes lunch and materials."
 workshopDate = "Sunday February 9th 2020"
-workshopImg = ""
+workshopImg = "/uploads/EF9FD1E5-2D85-4CE5-AE14-971E0CADE793.jpeg"
 workshopTime = "10.00 - 4.30 "
 workshopTitle = "Get to grips with your ribber"
 
