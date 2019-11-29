@@ -34,6 +34,7 @@ fields:
   name: workshopImg
   label: Workshop image
 pages:
+- content/workshops/Beanie.md
 - content/workshops/Ribber workshop.md
 - content/workshops/fingerless-gloves.md
 - content/workshops/Slouchy sox.md
@@ -42,6 +43,5 @@ pages:
 - content/workshops/hand-warmets.md
 - content/workshops/intro-to-garment-making.md
 - content/workshops/Cotton tunic.md
-- content/workshops/Beanie.md
 - content/workshops/group-duscount.md
 - content/workshops/evening-class.md
