@@ -2,7 +2,7 @@
 order = 3
 type = "workshop"
 workshopCost = "£30 includes materials "
-workshopDate = "TBC. Contact Jane if intetested"
+workshopDate = "TBC. Contact Jane if interested"
 workshopImg = "/uploads/F2771D86-3BFF-40C6-9981-7A813C4BB7E7.jpeg"
 workshopTime = "10.0 -1.00 pm"
 workshopTitle = "Beanie Hat"
