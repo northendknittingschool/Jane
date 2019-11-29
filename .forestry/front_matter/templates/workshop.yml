@@ -34,6 +34,7 @@ fields:
   name: workshopImg
   label: Workshop image
 pages:
+- content/workshops/Ribber workshop.md
 - content/workshops/fingerless-gloves.md
 - content/workshops/Slouchy sox.md
 - content/workshops/punchcard cushion cover.md
