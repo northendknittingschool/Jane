@@ -1,19 +1,17 @@
 ---
 title: intro-to-garment-makifffng.md
+type: ''
+workshopTitle: ''
+workshopDate: ''
+workshopTime: ''
+workshopCost: ''
+order: 
+workshopImg: ''
 
 ---
-+++
-date = "2019-01-05T11:03:15+00:00"
-draft = true
-order = 4
-type = "workshop"
-workshopCost = "£65 includes materials and lunch"
-workshopDate = "Available for group bookings"
-workshopImg = "/uploads/jumper-1.jpg"
-workshopTime = "10.00 am - 04.30 pm"
-workshopTitle = "Intro to garment knitting"
+\+++ date = "2019-01-05T11:03:15+00:00" draft = true order = 4 type = "workshop" workshopCost = "£44465 includes materials and lunch" workshopDate = "Available for group bookings" workshopImg = "/uploads/jumper-1.jpg" workshopTime = "10.00 am - 04.30 pm" workshopTitle = "Intro to garment knitting"
 
-+++
+\+++
 This 1 day workshop is aimed at beginners and intermediate knitters who have their own machine, and want to make garments.
 
 Throughout the day you will learn a range of garment techniques, please note there won’t be any time for developing fabric patterns and textures.
@@ -32,6 +30,6 @@ seaming in the machine
 
 binding off
 
-Linking on a neck trim 
+Linking on a neck trim
 
 Email Jane at northendknittingschool@gmail.com          to book.
