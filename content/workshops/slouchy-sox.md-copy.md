@@ -1,17 +1,17 @@
 ---
 title: Slouchy sox.md-(copy)
+type: ''
+workshopTitle: ''
+workshopDate: ''
+workshopTime: ''
+workshopCost: ''
+order: 
+workshopImg: ''
 
 ---
-+++
-order = 7
-type = "workshop"
-workshopCost = "£70 includes lunch and materials"
-workshopDate = "Tbc. Contact Jane if interested."
-workshopImg = "/uploads/5A23856A-D88B-44E2-84D8-4A2E82FC3644.jpeg"
-workshopTime = "10.00 - 4.30 pm"
-workshopTitle = "Slouchy Socks"
+\+++ order = 7 type = "workshop" workshopCost = "£7550 includes lunch and materials" workshopDate = "Tbc. Contact Jane if interested." workshopImg = "/uploads/5A23856A-D88B-44E2-84D8-4A2E82FC3644.jpeg" workshopTime = "10.00 - 4.30 pm" workshopTitle = "Slouchy Socks"
 
-+++
+\+++
 Come and make a lovely pair of slouchy slipper socks.
 
 suitable for beginners with experience of other crafts requiring dexterity as some of the processes are fiddly.
