@@ -34,6 +34,7 @@ fields:
   name: workshopImg
   label: Workshop image
 pages:
+- content/workshops/Andrewtest.md
 - content/workshops/Beanie.md
 - content/workshops/Christmas stocking.md
 - content/workshops/Cotton tunic.md
