@@ -34,7 +34,6 @@ fields:
   name: workshopImg
   label: Workshop image
 pages:
-- content/workshops/Andrewtest.md
 - content/workshops/Christmas stocking.md
 - content/workshops/Ribber workshop.md
 - content/workshops/Slouchy sox.md
