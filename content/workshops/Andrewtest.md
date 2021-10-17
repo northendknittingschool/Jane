@@ -8,3 +8,8 @@ order:
 workshopImg: "/uploads/spools on table.JPG"
 
 ---
+come and knit an Andrew test
+
+Binding on and off
+
+blha blah bah
