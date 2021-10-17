@@ -5,7 +5,7 @@ workshopDate: ''
 workshopTime: ''
 workshopCost: ''
 order: 1
-workshopImg: "/uploads/IMG_6952.JPG"
+workshopImg: "/uploads/IMG_6856.JPG"
 
 ---
 Please contact Jane at northendknittingschool@gmail.com to start the process
