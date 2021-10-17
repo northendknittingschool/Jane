@@ -4,7 +4,7 @@ workshopTitle: Hand Warmers
 workshopDate: Contact Jane to organise a date
 workshopTime: 10.00 - 4.30 pm
 workshopCost: "£70 (based on a minimum of 2 students) includes materials."
-order: 5
+order: 7
 workshopImg: "/uploads/C56529F1-B38A-4256-BEF1-374C51093559.jpeg"
 
 ---
