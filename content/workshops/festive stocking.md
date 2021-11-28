@@ -1,7 +1,7 @@
 ---
 type: workshop
 workshopTitle: Christmas Stocking Workshop
-workshopDate: Any mutually convenient date
+workshopDate: Any mutually convenient date (Sorry no more dates available for 2021)
 workshopTime: 10.00 - 4.30 pm
 workshopCost: "£50 p/p (Based on a group booking of 3 people)  £60 p/p (Based on a
   group booking of 2 people)"
