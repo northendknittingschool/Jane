@@ -1,7 +1,7 @@
 ---
 type: workshop
 workshopTitle: Introduction to Machine Knitting
-workshopDate: Contact Jane to organise a date
+workshopDate: Sunday March 6th 2022
 workshopTime: 10.00 - 4.30 pm
 workshopCost: "£70 (based on a minimum of 2 students)"
 order: 4
