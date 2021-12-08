@@ -14,6 +14,8 @@ If you have invested in a new machine, why not bring it along and we can check i
 
 If you'd prefer not to bring a machine with you, I have Knitmaster and Brother punch card machines with ribbing attachments plus a chunky Brother, also with ribbing attachment.
 
-Do you have an idea for a garment but don't know where to start? In a 1-2-1 we could work out the knit calculations and sample any tricky parts, such as neck openings, neck trim or pockets. You can take home a bespoke knitting pattern along with the skills needed to knit your design.
+I also have a Passap Duomatic and an electronic Silverreed SK840, which I use with DesignaKnit.
+
+Maybe you have an idea for a garment but don't know where to start? In a 1-2-1 we could work out the knit calculations and sample any tricky parts, such as neck openings, neck trim or pockets. You can take home a bespoke knitting pattern along with the skills needed to knit your design.
 
 I will supply tea & coffee (or your drink of choice!) but ask that you bring a packed lunch with you.
