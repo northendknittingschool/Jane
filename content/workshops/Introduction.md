@@ -28,6 +28,6 @@ This one day course will introduce you to the key functions of a knitting machin
 
 This is the perfect course if you are considering investing in your own knitting machine.
 
-In the workshop I have Knitmaster and Brother standard gauge machines and a Brother Chunky, but If you have already bought a machine feel free to bring it along!
+In the workshop I have Knitmaster and Brother standard gauge machines, a Brother Chunky and a Passap Duo 80, but If you have already bought a machine feel free to bring it along!
 
 I will supply you with tea and coffee (or your choice of drink) but ask that you bring a packed lunch.
