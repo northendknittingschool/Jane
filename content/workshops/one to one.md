@@ -3,7 +3,7 @@ type: workshop
 workshopTitle: 1-2-1 tuition
 workshopDate: Any mutually convenient date
 workshopTime: 10.00 - 4.30 pm
-workshopCost: "£100"
+workshopCost: "£120"
 order: 3
 workshopImg: "/uploads/jane-3.jpg"
 
