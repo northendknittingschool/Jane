@@ -3,7 +3,7 @@ type: workshop
 workshopTitle: Christmas Stocking Workshop
 workshopDate: Contact Jane to organise a date
 workshopTime: 10.00 - 4.30 pm
-workshopCost: "£60 p/p (Based on a group booking of 3 people)  £70 p/p (Based on a
+workshopCost: "£55 p/p (Based on a group booking of 3 people)  £65 p/p (Based on a
   group booking of 2 people)"
 order: 2
 workshopImg: "/uploads/stockings.jpg"
