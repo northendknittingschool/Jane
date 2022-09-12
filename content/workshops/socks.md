@@ -3,7 +3,7 @@ type: workshop
 workshopTitle: Slouchy Socks
 workshopDate: Contact Jane to organise a date
 workshopTime: 10.00 - 4.30 pm
-workshopCost: "£70 (based on a minimum of 2 students) includes materials."
+workshopCost: "£80 (based on a minimum of 2 students) includes materials."
 order: 6
 workshopImg: "/uploads/5A23856A-D88B-44E2-84D8-4A2E82FC3644.jpeg"
 
